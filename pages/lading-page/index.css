@@ -2,3 +2,41 @@
  box-sizing: border-box;
  margin: 0px;
 }
+
+.page-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: RGB(12, 50, 100);
+}
+.cont-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 1200px;
+    height: 120px;
+}
+
+.logo-senac-header{
+    width: 100px;
+}
+
+.navigation-menu-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 60%;
+    height: max-content;
+}
+
+.list-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+    padding: 0.7px;
+}
