@@ -40,3 +40,14 @@
     width: 100%;
     padding: 0.7px;
 }
+
+.search-header-home{
+    border: none;
+    width: 5vw;
+    background-color: transparent;
+}
+
+.search-header-home::placeholder{
+    color: white;
+    font-family: "Montserrant", sans-serif;
+}
